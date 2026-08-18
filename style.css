@@ -2,6 +2,7 @@ body {
     background-color: #f4f1ea;
     color: #222222;
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 
 header {
@@ -22,6 +23,22 @@ h2 {
 p {
     font-size: 18px;
     line-height: 1.6;
+}
+
+nav a {margin-top: 20px;}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: #ff0000;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display:inline-block;
+}
+
+nav a:hover {
+    background-color: #3700ff;
 }
 
 main {
@@ -48,4 +65,23 @@ figcaption {
     font-size: 14px;
     color: #555555;
     margin-top: 8px;
+}
+
+Card {
+    background-color:#fa6767;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 6px solid #611a1a;
+    border-radius: 10px;
+}
+
+Card h3 {
+    margin-top:0;
+}
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
 }
