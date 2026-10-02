@@ -6,12 +6,15 @@ botoesCurtir.forEach(function(botaoCurtir) {
 
     function curtir() {
         const contador = botaoCurtir.querySelector("span");
+        let numeroAtual = parseInt(contador.textContent);
+
         if (curtiu === false){
-                contador.textContent++;
-curtiu = true;}
-else{
-contador.textContent--;
-curtiu = false
-  }
- }
+            contador.textContent = numeroAtual + 1;
+            curtiu = true;
+        }
+        else{
+            contador.textContent = numeroAtual - 1;
+            curtiu = false;
+        }
+    }
 });
