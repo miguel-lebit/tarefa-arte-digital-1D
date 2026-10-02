@@ -15,7 +15,7 @@ botoesCurtir.forEach(function(botaoCurtir) {
             contador.textContent = quantidade + 1;
             curtiu = true;
         } else {
-            contador.textContent = quantidade - 1;
+            contador.textContent = quantidade + 1;
             curtiu = false;
         }
     }   
