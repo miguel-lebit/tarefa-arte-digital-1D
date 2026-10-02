@@ -1,9 +1,7 @@
-
 const botoesCurtir = document.querySelectorAll(".curtir");
 
 botoesCurtir.forEach(function(botaoCurtir) {
     let curtiu = false; 
-
 
     botaoCurtir.addEventListener("click", alternarCurtida);
 
@@ -12,10 +10,10 @@ botoesCurtir.forEach(function(botaoCurtir) {
         let quantidade = Number(contador.textContent);
 
         if (curtiu === false) {
-            contador.textContent = quantidade + 1;
+            contador.textContent = quantidade + 1; // Adiciona a curtida
             curtiu = true;
         } else {
-            contador.textContent = quantidade + 1;
+            contador.textContent = quantidade - 1; // Remove a curtida ao clicar de novo
             curtiu = false;
         }
     }   
