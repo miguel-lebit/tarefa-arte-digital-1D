@@ -1,13 +1,17 @@
 const botoesCurtir = document.querySelectorAll(".curtir");
 
 botoesCurtir.forEach(function(botaoCurtir) {
-    botaoCurtir.addEventListener("click", alternarCurtida);
+    botaoCurtir.addEventListener("click", curtir);
+    let curtiu = false;
 
-    function alternarCurtida() {
+    function curtir() {
         const contador = botaoCurtir.querySelector("span");
-        let quantidade = Number(contador.textContent);
-
-        // Sempre soma +1 a cada clique
-        contador.textContent = quantidade + 1;
-    }   
+        if (curtiu === false){
+                contador.textContent++;
+curtiu = true;}
+else{
+contador.textContent--;
+curtiu = false
+  }
+ }
 });
