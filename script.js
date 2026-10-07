@@ -8,11 +8,10 @@ botoesCurtir.forEach(function(botaoCurtir) {
         const contador = botaoCurtir.querySelector("span");
         let numeroAtual = parseInt(contador.textContent);
 
-        if (curtiu === false){
+        if (curtiu === false) {
             contador.textContent = numeroAtual + 1;
             curtiu = true;
-        }
-        else{
+        } else {
             contador.textContent = numeroAtual - 1;
             curtiu = false;
         }
