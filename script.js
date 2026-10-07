@@ -1,12 +1,11 @@
 const botoesCurtir = document.querySelectorAll(".curtir");
 
 botoesCurtir.forEach(function(botaoCurtir) {
-    botaoCurtir.addEventListener("click", curtir);
     let curtiu = false;
 
-    function curtir() {
+    botaoCurtir.addEventListener("click", function curtir() {
         const contador = botaoCurtir.querySelector("span");
-        let numeroAtual = parseInt(contador.textContent);
+        let numeroAtual = parseInt(contador.textContent) || 0;
 
         if (curtiu === false) {
             contador.textContent = numeroAtual + 1;
@@ -15,5 +14,5 @@ botoesCurtir.forEach(function(botaoCurtir) {
             contador.textContent = numeroAtual - 1;
             curtiu = false;
         }
-    }
+    });
 });
