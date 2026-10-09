@@ -1,5 +1,5 @@
 :root {
-    --cor-fundo: #474745;
+    --cor-fundo: #0400ff;
     --cor-texto: #222222;
     --cor-principal: #ff0000;
     --cor-secundaria: #000000;
@@ -10,7 +10,7 @@
     --cor-legenda: #555555;
     --cor-clara: #f4f1ea;
     --cor-rodape: #222222;
-    --cor-texto-claro: #ffffff;
+    --cor-texto-claro: #ff0000;
 }
 
 body {
