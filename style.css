@@ -42,7 +42,7 @@ p {
 nav a {
     color: var(--cor-clara);
     text-decoration: none;
-    background-color: var(--cor-principal);
+    background-color: var(--cor-secundaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
