@@ -9,8 +9,8 @@
     --cor-card-borda: #611a1a;
     --cor-legenda: #555555;
     --cor-clara: #f4f1ea;
-    --cor-rodape: #222222;
-    --cor-texto-claro: #ff0000;
+    --cor-rodape: #000000;
+    --cor-texto-claro: #fcfcfc;
 }
 
 body {
