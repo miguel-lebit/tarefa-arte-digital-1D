@@ -1,15 +1,15 @@
 :root {
-    --cor-fundo: #474745;
-    --cor-texto: #222222;
+    --cor-fundo: #fffffb;
+    --cor-texto: #000000;
     --cor-principal: #f50707;
     --cor-secundaria: #f3f1f1;
     --cor-hover: #3700ff;
     --cor-superficie: #ffffff;
-    --cor-card: #fa6767;
-    --cor-card-borda: #611a1a;
-    --cor-legenda: #555555;
+    --cor-card: #680000;
+    --cor-card-borda: #000000;
+    --cor-legenda: #333333;
     --cor-clara: #ffffff;
-    --cor-rodape: #222222;
+    --cor-rodape: #201e1e;
 }
 
 body {
