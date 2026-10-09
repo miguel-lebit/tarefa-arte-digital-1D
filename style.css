@@ -1,5 +1,5 @@
 :root {
-    --cor-fundo: #0400ff;
+    --cor-fundo: #474745;
     --cor-texto: #222222;
     --cor-principal: #ff0000;
     --cor-secundaria: #000000;
@@ -8,9 +8,8 @@
     --cor-card: #fa6767;
     --cor-card-borda: #611a1a;
     --cor-legenda: #555555;
-    --cor-clara: #f4f1ea;
+    --cor-clara: #ffffff;
     --cor-rodape: #222222;
-    --cor-texto-claro: #ffffff;
 }
 
 body {
@@ -22,7 +21,7 @@ body {
 
 header {
     background-color: var(--cor-principal);
-    color: var(--cor-texto-claro);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -41,7 +40,7 @@ p {
 }
 
 nav a {
-    color: var(--cor-texto-claro);
+    color: var(--cor-clara);
     text-decoration: none;
     background-color: var(--cor-principal);
     padding: 10px 15px;
@@ -96,7 +95,7 @@ figcaption {
 
 footer {
     background-color: var(--cor-rodape);
-    color: var(--cor-texto-claro);
+    color: var(--cor-clara);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
