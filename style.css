@@ -81,7 +81,13 @@ figcaption {
     margin-top: 8px;
 }
 
-.card {
+.cards-curiosidades {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.Card, .card {
     background-color: var(--cor-card);
     padding: 15px;
     margin: 15px 0;
@@ -90,7 +96,7 @@ figcaption {
     flex: 1 1 300px;
 }
 
-.card h3 {
+.Card h3, .card h3 {
     margin-top: 0;
 }
 
@@ -122,7 +128,7 @@ button:hover {
 }
 
 .galeria {
-    display: : flex;
+    display: flex;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
